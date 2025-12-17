@@ -66,6 +66,7 @@ endmodule
 
 
 **TRUTH TABLE**
+
 ![WhatsApp Image 2025-12-17 at 13 13 09_fe78242f](https://github.com/user-attachments/assets/d0caaed0-2828-4405-b7a7-d93c841f90dc)
 
 
