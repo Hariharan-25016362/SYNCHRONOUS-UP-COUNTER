@@ -66,7 +66,7 @@ endmodule
 
 
 **TRUTH TABLE**
-<img width="1056" height="375" alt="Screenshot 2025-12-17 122751" src="https://github.com/user-attachments/assets/c83dde65-e398-43b5-b681-76aa343ccfa9" />
+![WhatsApp Image 2025-12-17 at 13 13 09_fe78242f](https://github.com/user-attachments/assets/d0caaed0-2828-4405-b7a7-d93c841f90dc)
 
 
 **RESULTS**
