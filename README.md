@@ -29,18 +29,45 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 **Procedure**
 
 /* write all the steps invloved */
+```
+1.Open Quartus software and create a new Verilog file. Paste the code and save it.
+2.Compile the program to check for errors.
+3.Generate the RTL schematic via the RTL Viewer and save the logic diagram.
+4.Use the Waveform Editor to assign nodes for clk, rstn, and out.
+5.Simulate the design with different clk and rstn combinations to generate the timing diagram, and save the results.
+```
 
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
+Developed by:HARIHARAN M RegisterNumber:25016362
 */
+```
+module upcounter(clk,rst,count);
+input clk,rst;
+output reg[3:0]count;
+always@(posedge clk or negedge rst)
+begin
+if(!rst)
+count <= 4'b0000;
+else
+count <= count+1;
+end
+endmodule
+```
 
 **RTL LOGIC UP COUNTER**
+<img width="1784" height="610" alt="Screenshot 2025-12-17 114852" src="https://github.com/user-attachments/assets/3178163e-05c8-4038-a968-ccc6cd625c45" />
+
 
 **TIMING DIAGRAM FOR IP COUNTER**
+<img width="1918" height="451" alt="Screenshot 2025-12-17 115017" src="https://github.com/user-attachments/assets/4f0ed555-3b02-49b5-ab16-a0be3adfff4c" />
+
 
 **TRUTH TABLE**
+<img width="1056" height="375" alt="Screenshot 2025-12-17 122751" src="https://github.com/user-attachments/assets/c83dde65-e398-43b5-b681-76aa343ccfa9" />
+
 
 **RESULTS**
+Thus the Synchronous 3 bit Up counter is implemeted and verified.
