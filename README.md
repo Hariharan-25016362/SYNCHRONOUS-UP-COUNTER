@@ -70,4 +70,4 @@ endmodule
 
 
 **RESULTS**
-Thus the Synchronous 3 bit Up counter is implemeted and verified.
+Thus the Synchronous 4 bit Up counter is implemeted and verified.
